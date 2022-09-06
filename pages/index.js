@@ -10,7 +10,7 @@ import Stories from '../components/stories.js'
 import Features4 from '../components/features4.js'
 import Features5 from '../components/feactures5'
 import Counter from '../components/counter.js'
-import Scor from '../components/Scor.js'
+import Scor from '../components/scor.js'
 import Footer from '../components/footer.js'
 import Images from '../components/images.js' 
 
