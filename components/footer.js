@@ -47,7 +47,7 @@ const Footer = () => {
                              <h3 className={styles.h3}>Support</h3>
                             </div>
                             <ul className={styles.ul}>
-                                <li  className={styles.li}><a className={styles.link}>FAQ's</a></li>
+                                <li  className={styles.li}><a className={styles.link}>FAQ&apos;s</a></li>
                                 <li  className={styles.li}><a className={styles.link}>Privacy Policy</a></li>
                                 <li  className={styles.li}><a className={styles.link}>Terms & Conditions</a></li>
                                 <li  className={styles.li}><a className={styles.link}>Blogs</a></li>
