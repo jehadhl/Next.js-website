@@ -1,0 +1,53 @@
+@import "color";
+
+.Counter{
+  padding: 50px 2rem;
+  background-color: $color_1;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: -2rem;
+  .flex{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    .count{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+      
+        .h1{
+            text-align: center;
+            color: $color_2;
+            font-size: 60px;
+        }
+        .p{
+            color: $color_3;
+            font-size: 18px;
+        }
+    }
+  }
+}
+
+@media (max-width : 1000px){
+
+  .Counter{
+    margin: 0 2rem !important;
+    margin-top: -2rem !important;
+  
+  .flex{
+    grid-template-columns: 50% 50% !important;
+    grid-row-gap: 2rem;
+  }
+}
+}
+
+@media (max-width : 600px){
+  .Counter{
+  .flex{
+    grid-template-columns: 100% !important;
+ 
+  }
+}
+}

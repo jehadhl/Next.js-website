@@ -1,0 +1,96 @@
+@import "color";
+
+.stories{
+    padding: 70px 2rem 140px 2rem; 
+    background-color: #0b0241;
+    overflow-x: hidden;
+    clip-path: polygon(0 0 , 100% 0 , 100% 90% , 0 100%);
+    .h1{
+        font-size: 50px;
+        font-weight: 400;
+        margin-bottom: 4rem;
+        color: #fff;
+        text-align: center;
+    }
+    .contanier{
+        max-width: 1300px;
+        margin: 0 auto;
+        display: grid;
+        position: relative;
+        grid-template-columns: 50% 50%;
+        .col1{
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+            .p{
+                color: #fff;
+                font-size: 30px;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+            .h3{
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 15px;
+                color: $color_2;
+            }
+            .h4{
+                font-size: 16px;
+                font-weight: 400;
+                margin-bottom: 15px;
+                color: $color_3;
+            } }
+        .col2{
+            display: flex;
+            justify-content:center ;
+        } }
+    .arrow{
+      display: flex;
+      max-width: 100%;
+      margin-left: 10rem;
+      margin-bottom: 2rem;
+     .next ,
+     .prev {
+       margin: 0 0.5rem;
+       border:1px solid #fff;
+       border-radius: 50px;
+        padding: 10px;
+       cursor: pointer;
+       color: rgb(241, 236, 236);
+ }}}
+
+@media (max-width: 1000px){
+    .stories{
+        .h1{ 
+            margin-bottom: 2rem;
+            font-size: 40px !important;
+        }
+    .contanier{
+        grid-template-columns: 100% !important;
+    }}
+    .arrow{
+        margin-left: 0rem !important;
+
+    }
+}
+
+@media (max-width: 1000px){
+    .stories{
+        .h1{ 
+            font-size: 34px !important;
+        }
+    }
+}
+
+@media (max-width: 450px){
+    .stories{
+        .contanier{
+            .col1{
+                .p{
+                    font-size: 22px !important;
+                }
+             }}
+    }
+}
+
+

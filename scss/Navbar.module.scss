@@ -1,0 +1,205 @@
+
+@import "color";
+.header{
+   height: 100px;
+   display: flex;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 2rem;
+   width: 100%;
+   position: fixed;
+
+    .navbar{     
+        .navLink{
+            display: flex;
+            list-style: none;
+            li{
+                a{
+                    color: #fff;
+                    font-size: 16px;
+                    padding: 15px;
+                }}}}
+      
+      .all{
+        display: flex;
+        .mobile{
+            display: none;
+            margin-left:0.5rem ;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            svg{
+                color: #fff;
+                height: 30px;
+                width: 30px;
+            }
+
+        }
+    .button{
+        padding: 10px 25px;
+        background-color: #fff; 
+        font-size: 16px;
+        border-radius: 5px;
+        &:hover{
+            color: #2e2e2e;
+        }}}}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+.fixed{
+    height: 100px;
+    display: flex;
+    display: flex;
+    background-color: #fffbfb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    .navbar{
+        .navLink {
+            display: flex;
+            list-style: none;
+            li{
+                a{
+                    color: #0b2154;
+                    font-size: 16px;
+                    padding: 15px;
+                    font-weight: 500;
+                }}}}
+      .flexx{
+           display: flex;
+      }
+.all{
+    display: flex !important;
+    .mobile{
+        display: none;
+        margin-left:1rem ;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        svg{
+            color: #0b2154;
+            height: 30px;
+            width: 30px;
+        }
+
+    }
+    .button{
+        padding: 10px 25px;
+        background: -webkit-gradient(linear, left top, right top, from(#f20f10), to(#ec600d));
+        background: linear-gradient(90deg, #f20f10 0%, #ec600d 100%);
+        font-size: 16px;
+        border-radius: 5px;
+        color: #fff;
+        &:hover{
+            color: #2e2e2e;
+        }
+    }
+ }}
+
+ @media (max-width:1000px){
+    .header{
+    .navLink{
+        display: none !important;
+    }
+
+    .navLinkMobile{
+     position: absolute !important;
+     display: block !important;
+     list-style: none !important;
+     background-color: #fff !important;
+     left: 0 !important;
+     top: 75px !important;
+     transition: all 0.5s ease-out !important;
+     width: 100% !important;
+     display: flex !important;
+     flex-direction: column !important;
+     justify-content: center   !important;
+     align-items: center;
+     margin-top: 1rem !important;
+     li{
+        padding: 15px;
+        width: 100%;
+        border-bottom:  0.5px solid #d8d8d8;
+        
+        a{
+            color: #0b2154;
+            font-size: 16px;
+        }}
+
+    }
+
+    .all{
+        .mobile{
+            display: block !important;
+        }
+    }
+ }
+
+ .fixed{
+    padding: 0 2rem !important;
+    .navLink{
+        display: none !important;
+    }
+
+    .navLinkMobile{
+     position: absolute !important;
+     display: block !important;
+     list-style: none !important;
+     background-color: #fff !important;
+     left: 0 !important;
+     top: 75px !important;
+     transition: all 0.5s ease-out !important;
+     width: 100% !important;
+     display: flex !important;
+     flex-direction: column !important;
+     justify-content: center   !important;
+     align-items: center;
+     margin-top: 1rem !important;
+     li{
+        padding: 15px;
+        width: 100%;
+        border-bottom:  0.5px solid #d8d8d8;
+        
+        a{
+            color: #0b2154;
+            font-size: 16px;
+        }}
+
+    }
+
+    .all{
+        
+        .mobile{
+            display: block !important;
+        }
+    }
+ }
+
+}
+
+@media (max-width:450px){
+    .header{
+        padding: 0 1rem !important;
+    .imageLogo{
+        width: 120px !important;
+        height: 45px !important;
+    }
+}
+
+  .fixed{
+    padding: 0 1rem !important;
+    .imageLogo{
+        width: 120px !important;
+        height: 45px !important;
+    }
+  }
+}
+
+
+
+
